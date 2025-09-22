@@ -1,9 +1,9 @@
-> With great power comes great responsibility.
+Luminarium 과정을 통해 여러분은 **리눅스 터미널(terminal)**을 사용하여 시스템을 탐색하고(directory), 조작하고, 제어하는 방법을 배웠습니다.
+이제 여러분을 실제 환경으로 보내기 전에, 조심하라는 경고의 말과 함께—조금의 혼란과 장난도 전해드리고자 합니다.
 
-Over the course of the Luminarium, you have learned how to navigate, manipulate, and control a Linux machine.
-Before we send you off into the wild, it is only fair that we end with some words of caution—**and a little mayhem**.
+아래는 겉보기에는 무해해 보이지만, 실제 리눅스 시스템에서 실행될 경우, 심각한 데이터 손실(file), 서비스 중단(process와 관련된 과부하 또는 시스템 다운), 또는 **복구 불가능한 시스템 손상(kernel 수준의 오류)**을 초래할 수 있는 행동(명령어)들의 완전하지 않은 목록입니다.
 
-Below is a non-exhaustive collection of seemingly innocent actions that, when executed on a real system, can lead to catastrophic data-loss, denial of service, or even unrecoverable system corruption.
-All are recoverable on pwn.college (by restarting your container), but they are very real dangers on an unsuspecting computer.
+다행히도 pwn.college에서는 이와 같은 명령어를 실행해도 **컨테이너(container)**를 재시작하면 복구가 가능합니다. 그러나 현실의 시스템에서는 이러한 행동들이 치명적인 결과를 낳을 수 있습니다.
 
-Practice them, marvel at them, **do not** run them on anything that matters.
+이 명령어들을 직접 시도해보고, 어떻게 작동하는지 경이롭게 느껴보세요. 하지만 절대, 중요한 시스템이나 실제 환경에서는 실행하지 마세요.
+특히, 루트(root) 권한으로 실행한다면, 그 결과는 더욱 치명적일 수 있습니다
